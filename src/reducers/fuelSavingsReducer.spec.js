@@ -5,6 +5,7 @@ import {getFormattedDateTime} from '../utils/dates';
 describe('Reducers::FuelSavings', () => {
   const getInitialState = () => {
     return {
+			
       newMpg: '',
       tradeMpg: '',
       newPpg: '',
